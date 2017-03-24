@@ -1,7 +1,7 @@
 **FNReactionsView** is a customizable control (based on UIView) to give people a way to show floating emoji like facebook does during live stream, easy way.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/812037/24314191/b7b425b2-10e0-11e7-9539-7f28fee7d982.png" alt="FNReactionsView">
+<img src="https://cloud.githubusercontent.com/assets/812037/24315458/7206c284-10e7-11e7-8b9a-fba5102d88c9.gif" alt="FNReactionsView">
 </p>
 
 <p align="center">
