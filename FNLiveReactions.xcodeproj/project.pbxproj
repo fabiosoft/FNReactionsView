@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57EBBA27F42C6DEC79CD075B /* Pods_FNLiveReactions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ACAA1D609674031BDF99DC /* Pods_FNLiveReactions.framework */; };
 		E5EDE2421E859BB800904469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDE2411E859BB800904469 /* AppDelegate.swift */; };
 		E5EDE2441E859BB800904469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDE2431E859BB800904469 /* ViewController.swift */; };
 		E5EDE2471E859BB800904469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EDE2451E859BB800904469 /* Main.storyboard */; };
 		E5EDE2491E859BB800904469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5EDE2481E859BB800904469 /* Assets.xcassets */; };
 		E5EDE24C1E859BB800904469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EDE24A1E859BB800904469 /* LaunchScreen.storyboard */; };
+		E5EDE2551E85B3FF00904469 /* FNReactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDE2541E85B3FF00904469 /* FNReactionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06ACAA1D609674031BDF99DC /* Pods_FNLiveReactions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FNLiveReactions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		303C9FCB6663007C596C5364 /* Pods-FNLiveReactions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FNLiveReactions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FNLiveReactions/Pods-FNLiveReactions.debug.xcconfig"; sourceTree = "<group>"; };
+		D976C0F2ACAE1F9EE411D013 /* Pods-FNLiveReactions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FNLiveReactions.release.xcconfig"; path = "Pods/Target Support Files/Pods-FNLiveReactions/Pods-FNLiveReactions.release.xcconfig"; sourceTree = "<group>"; };
 		E5EDE23E1E859BB800904469 /* FNLiveReactions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNLiveReactions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EDE2411E859BB800904469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5EDE2431E859BB800904469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		E5EDE2481E859BB800904469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5EDE24B1E859BB800904469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5EDE24D1E859BB800904469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5EDE2541E85B3FF00904469 /* FNReactionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FNReactionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57EBBA27F42C6DEC79CD075B /* Pods_FNLiveReactions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23A0D1727B3B2CEF55F34F78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				303C9FCB6663007C596C5364 /* Pods-FNLiveReactions.debug.xcconfig */,
+				D976C0F2ACAE1F9EE411D013 /* Pods-FNLiveReactions.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE0DA8A11EEB699584C09AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06ACAA1D609674031BDF99DC /* Pods_FNLiveReactions.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E5EDE2351E859BB800904469 = {
 			isa = PBXGroup;
 			children = (
+				E5EDE2531E85B3E400904469 /* FNReactionsView */,
 				E5EDE2401E859BB800904469 /* FNLiveReactions */,
 				E5EDE23F1E859BB800904469 /* Products */,
+				23A0D1727B3B2CEF55F34F78 /* Pods */,
+				AE0DA8A11EEB699584C09AF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +91,14 @@
 			path = FNLiveReactions;
 			sourceTree = "<group>";
 		};
+		E5EDE2531E85B3E400904469 /* FNReactionsView */ = {
+			isa = PBXGroup;
+			children = (
+				E5EDE2541E85B3FF00904469 /* FNReactionsView.swift */,
+			);
+			path = FNReactionsView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5EDE2501E859BB800904469 /* Build configuration list for PBXNativeTarget "FNLiveReactions" */;
 			buildPhases = (
+				6721620D1A70E9ADAB89BD3A /* [CP] Check Pods Manifest.lock */,
 				E5EDE23A1E859BB800904469 /* Sources */,
 				E5EDE23B1E859BB800904469 /* Frameworks */,
 				E5EDE23C1E859BB800904469 /* Resources */,
+				C4A2FE78C3E271C4F62F1691 /* [CP] Embed Pods Frameworks */,
+				3338175DC328A57BD67B90FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +170,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3338175DC328A57BD67B90FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FNLiveReactions/Pods-FNLiveReactions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6721620D1A70E9ADAB89BD3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A2FE78C3E271C4F62F1691 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FNLiveReactions/Pods-FNLiveReactions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5EDE23A1E859BB800904469 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +225,7 @@
 			files = (
 				E5EDE2441E859BB800904469 /* ViewController.swift in Sources */,
 				E5EDE2421E859BB800904469 /* AppDelegate.swift in Sources */,
+				E5EDE2551E85B3FF00904469 /* FNReactionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +346,7 @@
 		};
 		E5EDE2511E859BB800904469 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303C9FCB6663007C596C5364 /* Pods-FNLiveReactions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C9W22UY94N;
@@ -272,6 +360,7 @@
 		};
 		E5EDE2521E859BB800904469 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D976C0F2ACAE1F9EE411D013 /* Pods-FNLiveReactions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C9W22UY94N;
@@ -302,6 +391,7 @@
 				E5EDE2521E859BB800904469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
