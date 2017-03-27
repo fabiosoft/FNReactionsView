@@ -98,6 +98,7 @@ You can now `import FNReactionsView` framework into your files.
 ## Contribution
 
 Contributions are welcome *♡*.
+Inspired by Brian Voong
 
 ## Contact
 
