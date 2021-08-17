@@ -42,7 +42,7 @@ For easy demonstration you can add a tap gesture to trigger the animation in you
 ```swift
 view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap)))
 ```
-and the the handler
+and the handler
 
 ``` swift
 func handleTap(){
